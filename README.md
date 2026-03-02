@@ -28,3 +28,41 @@ Ce dépôt contient le code et les ressources associées à notre projet de Deep
 ## 🧪 Tests
 
 Les tests sont réalisés à partir de fichiers audio externes nommés selon le format :
+`Test1.wav`, `Test2.wav`, ...
+Le modèle retourne la classe prédite pour chaque fichier audio testé.
+
+## 🚀 Exécution du projet
+
+1. Ouvrir le notebook `Projet_DeepLearning.ipynb`
+2. Monter le Google Drive
+3. Vérifier les chemins vers le dataset
+4. Exécuter les cellules dans l’ordre
+
+## 🛠️ Technologies utilisées
+
+- Python
+- PyTorch
+- Transformers (RoBERTa)
+- Librosa
+- Jupyter Notebook
+  
+## 🔧 Installation des dépendances
+
+Le projet a été développé et testé sur **Google Colab** avec support GPU (CUDA 11.8).
+
+Installer les bibliothèques nécessaires :
+
+# Installation des dépendances principales
+pip install -U transformers datasets evaluate accelerate openai-whisper
+
+# Installation de PyTorch avec support CUDA 11.8 (GPU)
+pip install --upgrade torch torchvision torchaudio \
+  --index-url https://download.pytorch.org/whl/cu118
+
+⚠️ L’installation CUDA est requise pour l’entraînement et l’inférence sur GPU.
+
+## 💻 Environnement d’exécution
+
+- Google Colab
+- Python 3.10
+- GPU NVIDIA (CUDA 11.8)
