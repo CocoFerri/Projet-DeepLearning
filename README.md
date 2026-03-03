@@ -30,10 +30,9 @@ L’objectif de ce projet est de développer un système capable de :
 
 ## 📊 Dataset
 
-- Environ **1000 fichiers audio** au format `.wav`
-- Un fichier **CSV** associé contenant :
+- Environ 1000 fichiers audio au format `.wav`
+- Un fichier CSV associé contenant :
   - Nom du fichier
-  - Texte associé (ou transcription)
   - Label de classification
 
 Le CSV permet d’associer chaque fichier audio à sa classe cible.
@@ -56,7 +55,7 @@ Le CSV permet d’associer chaque fichier audio à sa classe cible.
 - Encodage des labels
 
 ### 3️⃣ Modélisation
-- Chargement d’un modèle **RoBERTa pré-entraîné**
+- Chargement d’un modèle RoBERTa pré-entraîné
 - Fine-tuning sur notre dataset audio/textuel
 
 ### 4️⃣ Entraînement
@@ -69,7 +68,7 @@ Le CSV permet d’associer chaque fichier audio à sa classe cible.
 - Analyse des performances sur jeu de test
 
 ### 6️⃣ Test final
-- Détéction et transcription de ce que l'on dit
+- Détection et transcription de ce que l'on dit
 - Affichage de la classe prédite et de la probabilité associée
 
 ---
@@ -86,7 +85,7 @@ Le modèle peut être testé :
 
 Le modèle atteint :
 
-- ✅ **95% de précision** sur le jeu de test
+- ✅ 95% de précision sur le jeu de test
 
 Les performances ont été évaluées avec :
 
@@ -102,6 +101,7 @@ Les performances ont été évaluées avec :
 2. Monter Google Drive
 3. Vérifier les chemins d’accès au dataset
 4. Exécuter les cellules dans l’ordre
+5. Pour la dernière parler une fois la cellule lancée.
 
 ---
 
@@ -119,7 +119,7 @@ Les performances ont été évaluées avec :
 
 ## 🔧 Installation des dépendances
 
-Projet développé sur **Google Colab avec GPU CUDA 11.8**.
+Projet développé sur Google Colab avec GPU CUDA 11.8.
 
 ### Installation principale
 
