@@ -18,6 +18,10 @@ L’objectif de ce projet est de développer un modèle capable de classifier au
 - Environ **1000 fichiers audio** au format `.wav`
 - Un fichier **CSV** associé contenant les informations nécessaires à l’apprentissage du modèle
 - Le CSV est utilisé pour relier les données audio aux labels/textes exploités par le modèle
+- Le dataset n’est pas inclus dans ce dépôt en raison de sa taille.
+
+Il est disponible via Google Drive :
+👉 [Lien vers le dataset](https://drive.google.com/drive/folders/14dzJeyRPA2-iOVse7mg0_E-wzWf3zeCC?usp=sharing)
 
 ## ⚙️ Pipeline du projet
 
