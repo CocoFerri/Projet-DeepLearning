@@ -35,6 +35,12 @@ Les tests sont réalisés à partir de fichiers audio externes nommés selon le 
 `Test1.wav`, `Test2.wav`, ...
 Le modèle retourne la classe prédite pour chaque fichier audio testé.
 
+## 📈 Résultats
+
+Le modèle atteint une précision de 95% sur le jeu de test.
+
+Les performances ont été évaluées à l’aide de métriques classiques (accuracy, loss).
+
 ## 🚀 Exécution du projet
 
 1. Ouvrir le notebook `Projet_DeepLearning.ipynb`
@@ -75,8 +81,4 @@ pip install --upgrade torch torchvision torchaudio \
 - Python 3.10
 - GPU NVIDIA (CUDA 11.8)
 
-## 📈 Résultats
 
-Le modèle atteint une précision de 95% sur le jeu de test.
-
-Les performances ont été évaluées à l’aide de métriques classiques (accuracy, loss).
