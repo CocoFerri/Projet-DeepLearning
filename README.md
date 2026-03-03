@@ -2,6 +2,10 @@
 
 Ce dépôt contient le code et les ressources associées à notre projet de Deep Learning portant sur la classification de fichiers audio à l’aide d’un modèle basé sur RoBERTa.
 
+## 🎯 Objectif
+
+L’objectif de ce projet est de développer un modèle capable de classifier automatiquement des fichiers audio en différentes catégories à l’aide d’un modèle Transformer (RoBERTa).
+
 ## 📁 Contenu du dépôt
 
 - `Projet_DeepLearning.ipynb` : Jupyter Notebook contenant l’intégralité du code du projet (prétraitement, entraînement et tests).
@@ -53,11 +57,15 @@ Le projet a été développé et testé sur **Google Colab** avec support GPU (C
 Installer les bibliothèques nécessaires :
 
 # Installation des dépendances principales
+```bash
 pip install -U transformers datasets evaluate accelerate openai-whisper
+```
 
 # Installation de PyTorch avec support CUDA 11.8 (GPU)
+```bash
 pip install --upgrade torch torchvision torchaudio \
   --index-url https://download.pytorch.org/whl/cu118
+```
 
 ⚠️ L’installation CUDA est requise pour l’entraînement et l’inférence sur GPU.
 
@@ -66,3 +74,9 @@ pip install --upgrade torch torchvision torchaudio \
 - Google Colab
 - Python 3.10
 - GPU NVIDIA (CUDA 11.8)
+
+## 📈 Résultats
+
+Le modèle atteint une précision de 95% sur le jeu de test.
+
+Les performances ont été évaluées à l’aide de métriques classiques (accuracy, loss).
