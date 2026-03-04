@@ -77,6 +77,7 @@ Le CSV permet d’associer chaque fichier audio à sa classe cible.
 
 Le modèle peut être testé :
 
+- En utilisant un fichier audio en format .wav
 - En mode micro (Google Colab, enregistrement direct navigateur)
 
 ---
